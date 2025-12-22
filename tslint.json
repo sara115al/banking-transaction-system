@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-semistandard"
+  ],
+  "rulesDirectory": [],
+  "rules": {
+      "max-line-length": [true, 200],
+      "interface-name": false,
+      "object-literal-sort-keys": false,
+      "arrow-parens": false,
+      "only-arrow-functions": false,
+      "no-console": false,
+      "no-return-await": false,
+      "no-namespace": false,
+      "space-before-function-paren": [false, "never"],
+      "no-string-literal": false,
+      "max-classes-per-file": false,
+      "no-empty": false
+  },
+  "jsRules": {
+    "no-console": false
+  }
+}
