@@ -15,6 +15,6 @@ async function bootstrap() {
   SwaggerModule.setup('bank/docs', app, document);
 
   app.useGlobalPipes(new ValidationPipe());
-  await app.listen(3000);
+  await app.listen(3000, '0.0.0.0');
 }
 bootstrap().catch(console.error);
